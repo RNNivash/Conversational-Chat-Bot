@@ -1,0 +1,13 @@
+prefix=/Users/nivash/Documents/Gen AI proj/Q&A chat_bot/venv
+exec_prefix=/Users/nivash/Documents/Gen AI proj/Q&A chat_bot/venv
+libdir=/Users/nivash/Documents/Gen AI proj/Q&A chat_bot/venv/lib
+sharedlibdir=/Users/nivash/Documents/Gen AI proj/Q&A chat_bot/venv/lib
+includedir=/Users/nivash/Documents/Gen AI proj/Q&A chat_bot/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
